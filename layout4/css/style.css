@@ -114,7 +114,6 @@ button {
     margin: auto;
     width: 70%;
     margin-bottom: 25px;
-   
 }
 
 .rel {
@@ -130,17 +129,14 @@ button {
 
 .r2 {
     background-image: url(../images/2.png);
-
 }
 
 .r3 {
     background-image: url(../images/3.png);
-
 }
 
 .r4 {
     background-image: url(../images/4.png);
-
 }
 
 .abs {
@@ -186,26 +182,34 @@ button {
     padding-top: 2px;
 
 }
+
 .logo {
     display: none;
 }
 
+.wrapper button {
+    margin: 0 auto 25px;
+}
 
 @media (min-width:768px) {
     .nav {
-         margin: auto;
+        margin: auto;
         width: 100%;
         justify-content: space-between;
     }
+
     .wrapper {
         width: 80%;
     }
-    .logo { text-align: left;
+
+    .logo {
+        text-align: left;
         display: block;
         font-size: 20px;
         padding-top: 15px;
-        width: 80%;
+        width: 70%;
     }
+
     .whole {
         max-width: 960px;
     }
@@ -213,11 +217,11 @@ button {
     .flex {
         justify-content: space-between;
         flex-wrap: wrap;
-       
+
     }
+
     main .flex {
         flex-direction: row;
-    
     }
 
     .otstup {
@@ -231,8 +235,9 @@ button {
 
     .navig {
         text-align: right;
-justify-content: right;        width: 20%;
+        justify-content: right;
         margin-bottom: 85px;
+        width:30%;
     }
 
     .f22 {
@@ -242,12 +247,15 @@ justify-content: right;        width: 20%;
     .card {
         width: 100%;
     }
+
     .twin {
         display: flex;
     }
+
     .find {
         width: 50%;
     }
+
     button {
         width: 50%;
     }
@@ -257,39 +265,48 @@ justify-content: right;        width: 20%;
     .whole {
         max-width: 1440px;
     }
+
     .card {
         width: 100%;
     }
-    .twin 
-    {
+
+    .twin {
         width: 50%;
     }
+
     .wrapper {
         width: 80%;
     }
+
     header {
         height: 100vh;
     }
-h2 {
-    
-    font-size: 50px;
-}
-header h3 {
-    display: none;
-}
-.h2 {
-    margin: auto;
-    width: 50%;
-} 
-.f22 {
-    font-size: 30px;
-}
-.logo {
-    font-size: 30px;
-}
-a {
-    font-size: 25px;
 
-}
-    
+    h2 {
+
+        font-size: 50px;
+    }
+
+    header h3 {
+        display: none;
+    }
+
+    .h2 {
+        margin: auto;
+        width: 50%;
+    }
+
+    .f22 {
+        font-size: 30px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 25px;
+
+    }
+
 }
